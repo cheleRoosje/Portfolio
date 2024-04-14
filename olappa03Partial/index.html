@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>OpenLayers Assignment 3</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Family Fun Areas</h1>
+      <h3>Annapolis Royal, Nova Scotia</h3>
+      <h2 class="copy">Michele Roosje &copy;</h2>
+    </div>
+    <div id="mainMap"></div>
+    <div id="mouse-position"></div>
+
+    <div id="layers">
+      <label>
+        <input type="checkbox" name="sites" checked> Family Fun Sites
+      </label>
+      <label>
+        <input type="checkbox" name="walk" checked> Family Fun Walks
+      </label>
+    </div>
+
+
+    <div id="radio">
+      <label>
+        <input type="radio" name="basemap" value="basemap1" checked> Map
+      </label>
+      <label>
+        <input type="radio" name="basemap" value="basemap2"> Satelight Map
+      </label>
+    </div>
+
+    <img id="logo" src="pictures/COGS_LargeBlack.jpg" alt="COGS Logo" />
+
+    <script type="module" src="./main.js"></script>
+    
+  </body>
+</html>
