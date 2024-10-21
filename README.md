@@ -2,7 +2,7 @@
 
 👀 I’m interested in challenges
 
-🌱 I’m currently learning IT Programming
+🌱 I have completed IT Programming and am currently learning Business Administration
 
 😄 Pronouns: she/her
 
